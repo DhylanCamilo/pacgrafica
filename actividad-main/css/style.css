@@ -1,0 +1,518 @@
+*{
+    box-sizing: border-box;
+  } 
+body {
+      margin: 0%;
+      padding: 0;
+      background-color: rgb(0, 0, 0);
+  }
+.hola{
+    width: 100%;
+    height: 100vh;
+  }
+  li{
+    font-size: 2vh;
+  }
+  .btn{
+    border-color: rgb(49, 134, 209);
+   color: aliceblue;
+  }
+  h1{
+    
+    height: 10vh;
+    text-align: center;
+  }
+  h3 {
+    color: rgb(219, 243, 243);
+    text-align: center;
+  }
+  .altura1 {
+    background-color: rgb(67, 231, 231);
+    height: 40vh;
+    font-size: 3vh;
+  }
+  a:active {
+    color: red;
+  }
+  .altura2 {
+    background-color: rgb(148, 240, 243);
+    height: 40vh;
+  }
+  .altura2 a:any-link {
+    border: 1px solid rgb(75, 6, 235);
+    color: rgb(7, 0, 0);
+  }
+  .altura2 a:-webkit-any-link {
+    border: 1px solid rgb(75, 6, 235);
+    color: rgb(7, 0, 0);
+  }
+  .altura3 {
+    background-color: rgb(153, 214, 240);
+    height: 40vh;
+  }
+  input:checked + label {
+  color: rgb(124, 203, 240);
+}
+  input[type="radio"]:checked {
+  box-shadow: 0 0 0 3px rgb(233, 191, 113);
+}
+  input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px rgb(137, 235, 124);
+}
+  option:checked {
+  box-shadow: 0 0 0 3px lime;
+  color: red;
+}
+  .altura4 {
+    background-color: rgb(186, 215, 231);
+    height: 40vh;
+  }
+  :current(p, span) {
+  background-color: yellow;
+}
+  .altura5 {
+    background-color: rgb(67, 231, 231);
+    height: 40vh;
+  }
+  input:default {
+    box-shadow: 0 0 2px 1px coral;
+  }
+  
+  input:default + label {
+    color: coral;
+  }
+  .altura6 {
+    background-color: rgb(148, 240, 243);
+    height: 40vh;
+  }
+  .bebe {
+    background: yellow;
+  }
+  
+  simple-custom {
+    background: cyan;
+  }
+  :defined {
+    font-style: italic;
+  }
+  .altura7 {
+    background-color: rgb(153, 214, 240);
+    height: 40vh;
+  }
+  :dir(ltr) {
+    background-color: yellow;
+  }
+  :dir(rtl) {
+    background-color: powderblue;
+  }
+  .altura8 {
+    background-color: rgb(186, 215, 231);
+    height: 40vh;
+  }
+  input[type="text"]:disabled {
+    background: #ccc;
+  }
+  .altura9 {
+    background-color: rgb(67, 231, 231);
+    height: 40vh;
+  }
+  .empanada {
+    display: flexbox;
+    height: 1rem;
+    justify-content:center;
+    text-align: center;
+    align-items: center;
+  }
+ .holaaa{
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-self: center;
+  flex-direction: row;
+ }
+  .clas {
+    display: flex;
+    background: rgb(90, 204, 233);
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-self: center;
+    flex-direction: row;
+  }
+  .box:empty {
+    background: rgb(255, 255, 255);
+  }
+  .altura10 {
+    background-color: rgb(108, 232, 236);
+    height: 40vh;
+  }input:enabled {
+    color: rgb(34, 126, 187);
+  }
+  
+  input:disabled {
+    color: #aaa;
+  }@page :first {
+    margin-left: 50%;
+    margin-top: 50%;
+  }
+  
+  p {
+    page-break-after: always;
+  }
+  .altura11 {
+    background-color: rgb(153, 214, 240);
+    height: 40vh;
+  }
+  @page :first {
+    margin-left: 50%;
+    margin-top: 50%;
+  }
+  p {
+    page-break-after: always;
+  }
+  .altura12 {
+    background-color: rgb(186, 215, 231);
+    height: 40vh;
+  }
+  p:first-child {
+    color: lime;
+    background-color: black;
+    padding: 5px;
+  }
+  .altura13 {
+    background-color: rgb(67, 231, 231);
+    height: 40vh;
+  }
+  p:first-of-type {
+    color: red;
+    font-style: italic;
+  }
+  .altura14 {
+    background-color: rgb(148, 240, 243);
+    height: 40vh;
+  }
+  .red-input:focus {
+    background: yellow;
+    color: red;
+  }
+  
+  .blue-input:focus {
+    background: yellow;
+    color: blue;
+  }
+  .altura15 {
+    background-color: rgb(153, 214, 240);
+    height: 40vh;
+  }
+  input, button {
+    margin: 10px;
+  }
+  
+  .focus-only:focus {
+    outline: 2px solid black;
+  }
+  
+  .focus-visible-only:focus-visible {
+    outline: 4px dashed darkorange;
+  }
+  .altura16 {
+    background-color: rgb(186, 215, 231);
+    height: 40vh;
+  }
+  form {
+    border: 1px solid;
+    color: gray;
+    padding: 4px;
+  }
+  
+  form:focus-within {
+    background: #ff8;
+    color: black;
+  }
+  
+  input {
+    margin: 4px;
+  }
+  .altura17 {
+    background-color: rgb(67, 231, 231);
+    height: 40vh;
+  }
+  #fullscreen:fullscreen {
+    padding: 42px;
+    background-color: pink;
+    border:2px solid #f00;
+    font-size: 200%;
+  }
+  
+  #fullscreen:fullscreen > h1 {
+    color: red;
+  }
+  
+  #fullscreen:fullscreen > p {
+    color: darkred;
+  }
+  
+  #fullscreen:fullscreen > button {
+    display: none;
+  }
+  .altura18 {
+    background-color: rgb(148, 240, 243);
+    height: 40vh;
+  }
+  .altura19 {
+    background-color: rgb(153, 214, 240);
+    height: 40vh;
+  }
+  .altura20 {
+    background-color: rgb(186, 215, 231);
+    height: 40vh;
+  }
+  .altura21 {
+    background-color: rgb(67, 231, 231);
+    height: 40vh;
+  }
+  .bb {
+    background-color: powderblue;
+    transition: background-color 0.5s;
+  }
+ .bb a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  .altura22 {
+    background-color: rgb(148, 240, 243);
+    height: 40vh;
+  }
+  .gato {
+    list-style: none;
+    margin-bottom: 1em;
+  }
+  
+  input {
+    border: 1px solid black;
+  }
+  
+  input:in-range {
+    background-color: rgb(153, 214, 240);
+  }
+  
+  input:out-of-range {
+    background-color: rgba(255, 0, 0, 0.25);
+    border: 2px solid red;
+  }
+  
+  input:in-range + label::after {
+    content: "okay.";
+  }
+  
+  input:out-of-range + label::after {
+    content: "out of range!";
+  }
+  .altura24 {
+    background-color: rgb(153, 214, 240);
+    height: 40vh;
+  }
+  input:indeterminate + label {
+    background: lime;
+  }
+  .altura25 {
+    background-color: rgb(186, 215, 231);
+    height: 40vh;
+  }
+  label {
+    display: block;
+    margin: 1px;
+    padding: 1px;
+  }
+  
+  .field {
+    margin: 1px;
+    padding: 1px;
+  }
+  
+  input:invalid {
+    background-color: #ffdddd;
+  }
+  
+  form:invalid {
+    border: 5px solid #ffdddd;
+  }
+  
+  input:valid {
+    background-color: #ddffdd;
+  }
+  
+  form:valid {
+    border: 5px solid #ddffdd;
+  }
+  
+  input:required {
+    border-color: #800000;
+    border-width: 3px;
+  }
+  
+  input:required:invalid {
+    border-color: #c00000;
+  }
+  .altura26 {
+    background-color: rgb(67, 231, 231);
+    height: 40vh;
+  }
+  .altura27 {
+    background-color: rgb(148, 240, 243);
+    height: 40vh;
+  }
+  :lang(en) > q {
+    quotes: "\201C""\201D""\2018""\2019";
+  }
+  :lang(fr) > q {
+    quotes: "« " " »";
+  }
+  :lang(de) > q {
+    quotes: "»" "«" "\2039""\203A";
+  }   
+  .altura28 {
+    background-color: rgb(153, 214, 240);
+    height: 40vh;
+  }
+  p:last-child {
+    color: lime;
+    background-color: black;
+    padding: 5px;
+  }
+  
+  .altura29 {
+    background-color: rgb(186, 215, 231);
+    height: 40vh;
+  }
+ 
+  article :last-of-type {
+    background-color: pink;
+  }
+  p:last-child {
+    color: lime;
+    background-color: black;
+    padding: 5px;
+  }
+  .altura30 {
+    background-color: rgb(67, 231, 231);
+    height: 40vh;
+  }
+  a:link {
+    background-color: gold;
+    color: green;
+  }
+
+  .altura31 {
+    background-color: rgb(148, 240, 243);
+    height: 40vh;
+  }
+  a:local-link {
+    color: green;
+  }
+  .altura32 {
+    background-color: rgb(153, 214, 240);
+    height: 40vh;
+  }
+  .altura33 {
+    background-color: rgb(186, 215, 231);
+    height: 40vh;
+  } 
+  .fancy {
+    text-shadow: 2px 2px 3px gold;
+  }
+  
+  /* <p> elements that don't have a class `.fancy` */
+  p:not(.fancy) {
+    color: green;
+  }
+  
+  /* Elements that are not <p> elements */
+  body :not(p) {
+    text-decoration: underline;
+  }
+  
+  /* Elements that are not <div> and not <span> elements */
+  body :not(div):not(span) {
+    font-weight: bold;
+  }
+  
+  /* Elements that are not <div>s or `.fancy` */
+  body :not(div, .fancy) {
+    text-decoration: overline underline;
+  }
+  
+  /* Elements inside an <h2> that aren't a <span> with a class of `.foo` */
+  h2 :not(span.foo) {
+    color: red;
+  }
+  
+  .altura34 {
+    background-color: rgb(67, 231, 231);
+    height:50vh;
+  }
+  html {
+    font-family: sans-serif;
+  }
+  
+  span,
+  div em {
+    padding: 5px;
+    border: 1px solid green;
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+  
+  .first span:nth-child(2n + 1),
+  .second span:nth-child(2n + 1),
+  .third span:nth-of-type(2n + 1) {
+    background-color: lime;
+  }
+   .altura35 {
+    background-color: rgb(148, 240, 243);
+    height: 50vh;
+  } 
+  td {
+    border: 1px solid #ccc;
+    padding: 0.2em;
+  }
+  
+  /* Odd columns */
+  :nth-col(2n + 1) {
+    background-color: pink;
+  }
+  
+  .altura36 {
+    background-color: rgb(153, 214, 240);
+    height: 50vh;
+  }
+  table {
+    border: 1px solid blue;
+  }
+  
+  /* Selects the last three elements */
+  tr:nth-last-child(-n + 3) {
+    background-color: pink;
+  }
+  
+  /* Selects every element starting from the second to last item */
+  tr:nth-last-child(n + 2) {
+    color: blue;
+  }
+  
+  /* Select only the last second element */
+  tr:nth-last-child(2) {
+    font-weight: 600;
+  }
+  .altura37 {
+    background-color: rgb(186, 215, 231);
+    height: 50vh;
+  }
+  td {
+    border: 1px solid #ccc;
+    padding: 0.2em;
+  }
+  
+  /* Odd columns starting with the final column of the table */
+  :nth-last-col(2n + 1) {
+    background-color: pink;
+  }
